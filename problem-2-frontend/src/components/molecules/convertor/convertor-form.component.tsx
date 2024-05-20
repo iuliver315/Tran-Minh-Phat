@@ -104,7 +104,6 @@ const ConvertorForm = ({
             />
             <CurrencyList  selectedCurrency={selectedToCurrency} onChangeCurrency={onChangeToCurrency} currencyList={data} />
           </div>
-
           {amount <= 0 && (
             <p className='text-[var(--color-danger)]'>
               Amount must be greater than 0
