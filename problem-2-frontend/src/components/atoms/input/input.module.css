@@ -1,0 +1,20 @@
+.input {
+  border: 1px solid var(--color-grey-400);
+  background-color: var(--color-grey-0);
+  border-radius: 5px;
+  padding: 8px 12px;
+}
+.input:focus {
+  outline: 2px solid var(--color-blue);
+  outline-offset: -1px;
+}
+:global(.input) {
+  border: 1px solid var(--color-grey-400);
+  background-color: var(--color-grey-0);
+  border-radius: 5px;
+  padding: 8px 12px;
+}
+:global(.input:focus) {
+  outline: 2px solid var(--color-blue);
+  outline-offset: -1px;
+}
